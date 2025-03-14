@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Check, MessageCircle, Shield, Clock, Users, ArrowRight } from "lucide-react"
 import { MainNav } from "@/components/main-nav"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -91,7 +92,7 @@ export default function Home() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">À propos de nous</h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  SereniTalk est né d'une vision simple : rendre le soutien psychologique accessible à tous
+                  SereniTalk est né d&apos;une vision simple : rendre le soutien psychologique accessible à tous
                 </p>
               </div>
             </div>
@@ -99,12 +100,12 @@ export default function Home() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
               <div className="flex flex-col justify-center space-y-4">
                 <p className="text-gray-500 dark:text-gray-400">
-                  Fondée en 2023 par une équipe de psychologues et d'experts en technologie, notre plateforme combine
-                  l'intelligence artificielle et l'expertise humaine pour offrir un soutien adapté à chaque individu.
+                  Fondée en 2023 par une équipe de psychologues et d&apos;experts en technologie, notre plateforme combine
+                  l&apos;intelligence artificielle et l&apos;expertise humaine pour offrir un soutien adapté à chaque individu.
                 </p>
                 <p className="text-gray-500 dark:text-gray-400">
                   Nous croyons que la santé mentale est aussi importante que la santé physique, et que chacun mérite
-                  d'avoir accès à des ressources de qualité, quel que soit son emploi du temps ou sa situation
+                  d&apos;avoir accès à des ressources de qualité, quel que soit son emploi du temps ou sa situation
                   géographique.
                 </p>
                 <div className="grid gap-4 md:grid-cols-2 mt-4">
@@ -125,7 +126,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <img
+                <Image
                   alt="L'équipe SereniTalk"
                   className="rounded-lg object-cover shadow-lg"
                   src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
@@ -212,7 +213,7 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Button className="w-full" asChild>
-                    <Link href="/dashboard">S'abonner</Link>
+                    <Link href="/dashboard">S&apos;abonner</Link>
                   </Button>
                 </CardFooter>
               </Card>
@@ -247,12 +248,12 @@ export default function Home() {
                 </CardContent>
                 <CardFooter>
                   <Button className="w-full" asChild>
-                    <Link href="/dashboard">S'abonner</Link>
+                    <Link href="/dashboard">S&apos;abonner</Link>
                   </Button>
                 </CardFooter>
               </Card>
             </div>
-            <img
+            <Image
               alt="Séance de thérapie"
               className="rounded-lg object-cover shadow-lg mt-8 mx-auto h-64 w-full"
               src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
@@ -366,7 +367,7 @@ export default function Home() {
                 </div>
                 <div className="mt-4">
                   <div className="inline-block rounded-lg bg-red-50 px-3 py-1 text-sm text-red-600 dark:bg-red-900/30 dark:text-red-400">
-                    Besoin d'aide immédiate ?{" "}
+                    Besoin d&apos;aide immédiate ?{" "}
                     <a href="/contact" className="font-bold underline">
                       Contactez-nous
                     </a>
@@ -374,7 +375,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <img
+                <Image
                   alt="Personne en détresse recevant du soutien"
                   className="rounded-lg object-cover shadow-lg"
                   src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
@@ -411,7 +412,7 @@ export default function Home() {
                 En cas de détresse urgente
               </h2>
               <p className="max-w-[600px] text-gray-700 dark:text-gray-300">
-                Si vous ou un proche êtes en situation de crise, contactez immédiatement les services d'urgence
+                Si vous ou un proche êtes en situation de crise, contactez immédiatement les services d&apos;urgence
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Button variant="destructive" asChild>
@@ -422,7 +423,7 @@ export default function Home() {
                   className="border-red-200 text-red-600 hover:bg-red-50 dark:border-red-800 dark:text-red-400 dark:hover:bg-red-900/30"
                   asChild
                 >
-                  <Link href="/resources">Ressources d'urgence</Link>
+                  <Link href="/resources">Ressources d&apos;urgence</Link>
                 </Button>
               </div>
             </div>
@@ -455,7 +456,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4">
             <Link href="/terms" className="text-sm text-gray-500 hover:text-primary dark:text-gray-400">
-              Conditions d'utilisation
+              Conditions d&apos;utilisation
             </Link>
             <Link href="/privacy" className="text-sm text-gray-500 hover:text-primary dark:text-gray-400">
               Politique de confidentialité

@@ -10,7 +10,7 @@ export default function DashboardPage() {
     {
       id: "1",
       type: "IA",
-      date: "Aujourd'hui, 14:30",
+      date: "Aujourd&apos;hui, 14:30",
       title: "Gestion du stress",
       preview: "Nous avons discuté de techniques de respiration et de méditation pour gérer le stress quotidien.",
     },
@@ -110,7 +110,7 @@ export default function DashboardPage() {
 
       <Card className="col-span-full bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800">
         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-          <CardTitle className="text-sm font-medium text-red-600 dark:text-red-400">Ressources d'urgence</CardTitle>
+          <CardTitle className="text-sm font-medium text-red-600 dark:text-red-400">Ressources d&apos;urgence</CardTitle>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -131,7 +131,7 @@ export default function DashboardPage() {
         <CardContent className="flex items-center justify-between">
           <div>
             <p className="text-sm text-red-600 dark:text-red-400">
-              En cas de détresse urgente, contactez immédiatement les services d'urgence
+              En cas de détresse urgente, contactez immédiatement les services d&apos;urgence
             </p>
           </div>
           <Button variant="destructive" size="sm" asChild>
@@ -168,7 +168,7 @@ export default function DashboardPage() {
           </div>
           <Button variant="outline" className="w-full" asChild>
             <Link href="/dashboard/history">
-              Voir tout l'historique
+              Voir tout l&apos;historique
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
@@ -177,7 +177,7 @@ export default function DashboardPage() {
           <Card>
             <CardHeader>
               <CardTitle>Sessions à venir</CardTitle>
-              <CardDescription>Vous n'avez pas de sessions programmées.</CardDescription>
+              <CardDescription>Vous n&apos;avez pas de sessions programmées.</CardDescription>
             </CardHeader>
             <CardContent className="flex justify-center py-6">
               <Button asChild>

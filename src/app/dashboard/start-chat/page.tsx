@@ -35,7 +35,7 @@ export default function StartChatPage() {
                   <div className="flex-1 space-y-1">
                     <p className="text-sm font-medium">SereniBot</p>
                     <p className="text-sm text-muted-foreground">
-                      Bonjour ! Comment puis-je vous aider aujourd'hui ? Je suis là pour vous écouter et vous offrir un
+                      Bonjour ! Comment puis-je vous aider aujourd&apos;hui ? Je suis là pour vous écouter et vous offrir un
                       soutien.
                     </p>
                   </div>
@@ -47,7 +47,7 @@ export default function StartChatPage() {
                   <div className="flex-1 space-y-1">
                     <p className="text-sm font-medium">Vous</p>
                     <p className="text-sm text-muted-foreground">
-                      J'ai du mal à gérer mon stress ces derniers temps...
+                      J&apos;ai du mal à gérer mon stress ces derniers temps...
                     </p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export default function StartChatPage() {
                   <div className="flex-1 space-y-1">
                     <p className="text-sm font-medium">Vous</p>
                     <p className="text-sm text-muted-foreground">
-                      J'aimerais explorer des techniques de méditation adaptées à mon emploi du temps chargé...
+                      J&apos;aimerais explorer des techniques de méditation adaptées à mon emploi du temps chargé...
                     </p>
                   </div>
                 </div>
@@ -185,7 +185,7 @@ export default function StartChatPage() {
                   </CardHeader>
                   <CardContent className="p-4 pt-0">
                     <p className="text-sm text-muted-foreground">
-                      Spécialisée en thérapie cognitive et comportementale, avec 10 ans d'expérience.
+                      Spécialisée en thérapie cognitive et comportementale, avec 10 ans d&apos;expérience.
                     </p>
                   </CardContent>
                   <CardFooter className="p-4 pt-0">
@@ -205,7 +205,7 @@ export default function StartChatPage() {
                   </CardHeader>
                   <CardContent className="p-4 pt-0">
                     <p className="text-sm text-muted-foreground">
-                      Expert en gestion du stress et de l'anxiété, approche humaniste.
+                      Expert en gestion du stress et de l&apos;anxiété, approche humaniste.
                     </p>
                   </CardContent>
                   <CardFooter className="p-4 pt-0">

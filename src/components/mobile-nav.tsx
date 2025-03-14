@@ -71,14 +71,14 @@ export function MobileNav() {
           </Button>
           <Button variant="default" className="w-full" asChild>
             <Link href="/sign-up" onClick={() => setOpen(false)}>
-              S'inscrire
+              S&apos;inscrire
             </Link>
           </Button>
         </div>
         <div className="mt-6 rounded-lg bg-red-50 p-4 dark:bg-red-900/20">
-          <h3 className="font-bold text-red-600 dark:text-red-400">Besoin d'aide urgente ?</h3>
+          <h3 className="font-bold text-red-600 dark:text-red-400">Besoin d&apos;aide urgente ?</h3>
           <p className="text-sm text-gray-700 dark:text-gray-300 mt-1 mb-2">
-            En cas de détresse, contactez immédiatement les services d'urgence
+            En cas de détresse, contactez immédiatement les services d&apos;urgence
           </p>
           <Button variant="destructive" size="sm" className="w-full" asChild>
             <a href="tel:112">Appeler le 112</a>

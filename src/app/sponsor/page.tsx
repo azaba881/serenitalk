@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Heart, Coffee, Gift, ArrowRight } from "lucide-react"
+import Image from "next/image"
 import Link from "next/link"
 
 export default function SponsorPage() {
@@ -57,7 +58,7 @@ export default function SponsorPage() {
             <ul className="mt-4 space-y-2 text-sm">
               <li className="text-center">Votre nom dans notre liste de remerciements</li>
               <li className="text-center">Accès à notre newsletter exclusive</li>
-              <li className="text-center">Badge "Supporter" sur votre profil</li>
+              <li className="text-center">Badge &quot;Supporter&quot; sur votre profil</li>
             </ul>
           </CardContent>
           <CardFooter>
@@ -101,12 +102,12 @@ export default function SponsorPage() {
       <div className="mt-16 max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-bold mb-4">Pourquoi nous soutenir ?</h2>
         <p className="text-gray-500 dark:text-gray-400 mb-8">
-          SereniTalk s'efforce de rendre le soutien psychologique accessible à tous, indépendamment de leur situation
+          SereniTalk s&apos;efforce de rendre le soutien psychologique accessible à tous, indépendamment de leur situation
           financière. Votre soutien nous aide à maintenir notre offre gratuite, à améliorer nos services et à développer
           de nouvelles fonctionnalités pour mieux accompagner nos utilisateurs dans leur parcours de bien-être mental.
         </p>
         <div className="flex justify-center">
-          <img
+          <Image
             alt="L'équipe SereniTalk vous remercie"
             className="rounded-lg object-cover shadow-lg"
             src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

@@ -157,7 +157,7 @@ export default function PricingPage() {
           </CardContent>
           <CardFooter>
             <Button className="w-full" asChild>
-              <Link href="/sign-up">S'abonner</Link>
+              <Link href="/sign-up">S&apos;abonner</Link>
             </Button>
           </CardFooter>
         </Card>
@@ -196,7 +196,7 @@ export default function PricingPage() {
           </CardContent>
           <CardFooter>
             <Button className="w-full" asChild>
-              <Link href="/sign-up">S'abonner</Link>
+              <Link href="/sign-up">S&apos;abonner</Link>
             </Button>
           </CardFooter>
         </Card>
@@ -206,7 +206,7 @@ export default function PricingPage() {
         <h2 className="text-2xl font-bold mb-6 text-center">Questions fréquentes</h2>
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Comment fonctionne l'abonnement ?</AccordionTrigger>
+            <AccordionTrigger>Comment fonctionne l&apos;abonnement ?</AccordionTrigger>
             <AccordionContent>
               Nos abonnements sont mensuels et sans engagement. Vous pouvez annuler à tout moment. Le paiement est
               effectué via Stripe, une plateforme de paiement sécurisée.
@@ -215,7 +215,7 @@ export default function PricingPage() {
           <AccordionItem value="item-2">
             <AccordionTrigger>Puis-je changer de formule ?</AccordionTrigger>
             <AccordionContent>
-              Oui, vous pouvez passer d'une formule à une autre à tout moment. Si vous passez à une formule supérieure,
+              Oui, vous pouvez passer d&apos;une formule à une autre à tout moment. Si vous passez à une formule supérieure,
               la différence sera calculée au prorata. Si vous passez à une formule inférieure, le changement prendra
               effet à la fin de votre période de facturation.
             </AccordionContent>
@@ -223,7 +223,7 @@ export default function PricingPage() {
           <AccordionItem value="item-3">
             <AccordionTrigger>Comment sont sélectionnés les professionnels ?</AccordionTrigger>
             <AccordionContent>
-              Tous nos professionnels sont certifiés et ont au minimum 5 ans d'expérience. Ils sont sélectionnés après
+              Tous nos professionnels sont certifiés et ont au minimum 5 ans d&apos;expérience. Ils sont sélectionnés après
               un processus rigoureux qui évalue leurs compétences, leur expérience et leur approche thérapeutique.
             </AccordionContent>
           </AccordionItem>
@@ -239,7 +239,7 @@ export default function PricingPage() {
             <AccordionTrigger>Comment se déroulent les sessions avec un professionnel ?</AccordionTrigger>
             <AccordionContent>
               Les sessions durent 45 minutes et se déroulent par vidéoconférence sécurisée ou par téléphone, selon votre
-              préférence. Vous pouvez planifier vos sessions à l'avance via votre tableau de bord.
+              préférence. Vous pouvez planifier vos sessions à l&apos;avance via votre tableau de bord.
             </AccordionContent>
           </AccordionItem>
         </Accordion>

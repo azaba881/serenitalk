@@ -134,7 +134,7 @@ export default function SettingsPage() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="space-y-2">
-                <Label htmlFor="username">Nom d'utilisateur</Label>
+                <Label htmlFor="username">Nom d&apos;utilisateur</Label>
                 <Input id="username" defaultValue="jean_dupont" />
               </div>
 
@@ -297,7 +297,7 @@ export default function SettingsPage() {
                   <div className="space-y-0.5">
                     <Label htmlFor="data-analytics">Analyse des données</Label>
                     <p className="text-sm text-muted-foreground">
-                      Nous aidons à améliorer nos services en analysant l'utilisation de façon anonyme
+                      Nous aidons à améliorer nos services en analysant l&apos;utilisation de façon anonyme
                     </p>
                   </div>
                   <Switch id="data-analytics" defaultChecked />

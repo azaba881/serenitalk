@@ -23,7 +23,7 @@ export function UserButton() {
           <Link href="/sign-in">Se connecter</Link>
         </Button>
         <Button size="sm" asChild>
-          <Link href="/sign-up">S'inscrire</Link>
+          <Link href="/sign-up">S&apos;inscrire</Link>
         </Button>
       </div>
     )

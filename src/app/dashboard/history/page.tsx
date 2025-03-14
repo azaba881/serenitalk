@@ -238,7 +238,7 @@ export default function HistoryPage() {
 
       <Card>
         <CardHeader>
-          <CardTitle>Statistiques d'utilisation</CardTitle>
+          <CardTitle>Statistiques d&apos;utilisation</CardTitle>
           <CardDescription>Aperçu de votre activité sur SereniTalk</CardDescription>
         </CardHeader>
         <CardContent>

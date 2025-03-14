@@ -53,7 +53,7 @@ export default function SubscriptionPage() {
             </Link>
           </Button>
           <Button variant="destructive" size="sm">
-            Annuler l'abonnement
+            Annuler l&apos;abonnement
           </Button>
         </CardFooter>
       </Card>
@@ -333,7 +333,7 @@ export default function SubscriptionPage() {
         <CardFooter>
           <Button variant="outline" className="w-full" asChild>
             <Link href="/dashboard/billing/history">
-              Voir tout l'historique
+              Voir tout l&apos;historique
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
